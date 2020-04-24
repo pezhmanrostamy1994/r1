@@ -1,0 +1,45 @@
+{
+  "name": "shop-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "auto-bind": "^4.0.0",
+    "bcryptjs": "2.4.3",
+    "body-parser": "1.19.0",
+    "config": "^3.2.5",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^3.2.0",
+    "cookie-parser": "^1.4.4",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.0",
+    "express-validator": "6.4.0",
+    "helmet": "3.21.2",
+    "jsonwebtoken": "8.5.1",
+    "jwt-simple": "^0.5.6",
+    "method-override": "^3.0.0",
+    "mkdir": "0.0.2",
+    "mongoose": "5.9.10",
+    "mongoose-paginate": "^5.0.3",
+    "morgan": "1.9.1",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "sharp": "^0.24.1",
+    "unique-string": "^2.0.0"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "supertest": "^4.0.2"
+  }
+}
