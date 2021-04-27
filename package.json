@@ -24,7 +24,7 @@
     "express-ejs-layouts": "^2.5.0",
     "express-flash": "0.0.2",
     "express-session": "^1.17.0",
-    "express-validator": "6.4.0",
+    "express-validator": "6.5.0",
     "helmet": "3.21.2",
     "jsonwebtoken": "8.5.1",
     "jwt-simple": "^0.5.6",
